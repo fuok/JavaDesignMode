@@ -1,4 +1,4 @@
-package designModeTest;
+package singleton;
 
 /** 单例模式，只创建一个实例 */
 class SafeSingleton {
