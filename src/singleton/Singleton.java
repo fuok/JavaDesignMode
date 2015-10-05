@@ -6,7 +6,7 @@ class SafeSingleton {
 		private static SafeSingleton instance = new SafeSingleton();
 	}
 
-	private SafeSingleton() {
+	private SafeSingleton() {// 单例模式比较适合使用私有构造
 		System.out.println("SafeSingleton initialized here....");
 	}
 
