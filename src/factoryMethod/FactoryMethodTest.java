@@ -63,6 +63,7 @@ class FactoryGuangzhou implements ITaskFactory {
 public class FactoryMethodTest {
 	public static void main(String[] args) {
 		ITaskFactory taskFactory;
+		// Factory的要义即是延迟
 		taskFactory = new FactoryBeijing();
 		taskFactory.dispatchTask().doWork();
 
