@@ -71,5 +71,7 @@ public class AdapterTest {
 
 		t = new HeavyAdapter();
 		t.newCall("新方法");
+		
+		//总结:可以对象适配，也可以类适配，按照需要进行选择。
 	}
 }
